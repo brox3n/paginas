@@ -1,0 +1,221 @@
+/* =========================
+   ESTILOS GENERALES
+========================= */
+body {
+  background-color: black;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-image: url("../img/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1, h2, h3, h5 {
+  margin: 0;
+  padding: 10px;
+}
+
+h1 {
+  background-color: gold;
+  font-size: 50px;
+}
+
+blockquote {
+  color: aliceblue;
+  margin: 5px 0;
+}
+
+a img {
+  transition: transform 0.3s ease-in-out;
+}
+a img:hover {
+  transform: scale(1.1);
+}
+
+/* =========================
+   INDEX.HTML
+========================= */
+#index-page h1 {
+  font-size: 70px;
+}
+
+#index-page p {
+  background-color: gold;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+}
+
+#index-page img.blog {
+  margin-top: 10px;
+}
+
+#index-page h2 {
+  color: white;
+  margin-top: 20px;
+}
+
+#index-page h3 {
+  color: white;
+}
+
+#index-page .fav-icons img {
+  width: 80px;
+  margin: 0 10px;
+}
+
+#index-page .to-pagina2 img {
+  width: 130px;
+  margin-top: 20px;
+}
+
+/* =========================
+   PAGINA2.HTML
+========================= */
+#pagina2-page h1, 
+#pagina2-page h2 {
+  color: antiquewhite;
+}
+
+#pagina2-page p.bio {
+  width: 300px;
+  text-align: left;
+  background-color: gold;
+  padding: 8px;
+  margin: auto;
+  position: relative;
+}
+
+#pagina2-page p.bio img.photo {
+  float: right;
+  margin: 8px;
+  margin-bottom: 5px;
+  width: 100px;
+}
+
+#pagina2-page ul {
+  list-style: disc;
+  text-align: left;
+  background-color: gold;
+  width: 300px;
+  padding: 8px;
+  margin: 10px auto;
+}
+
+#pagina2-page table {
+  width: 80%;
+  margin: auto;
+  border: 2px solid white;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+#pagina2-page table th {
+  background-color: black;
+  color: wheat;
+  padding: 10px;
+}
+
+#pagina2-page table td {
+  width: 150px;
+  height: 50px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#pagina2-page .volver img {
+  width: 60px;
+}
+
+#pagina2-page .to-trivia img {
+  width: 100px;
+  margin-top: 20px;
+}
+
+/* =========================
+   TRIVIA.HTML
+========================= */
+#trivia-page h1 {
+  font-size: 50px;
+}
+
+#trivia-page h5 {
+  background-color: gold;
+  width: 300px;
+  text-align: left;
+  padding: 8px;
+  margin: auto;
+}
+
+#trivia-page .start img {
+  width: 100px;
+  margin-top: 10px;
+}
+
+#trivia-page .volver img {
+  width: 60px;
+}
+
+/* =========================
+   PREGUNTAS TRIVIA
+========================= */
+.trivia-question h1 {
+  background-color: gold;
+  font-size: 46px;
+  padding: 14px;
+}
+
+.trivia-question h2 {
+  color: white;
+  margin: 20px 0;
+}
+
+.trivia-option {
+  background-color: gold;
+  width: 300px;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 50px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.trivia-option:hover {
+  background-color: orange;
+}
+
+/* =========================
+   RESULTADOS (GANASTE / PERDISTE / CORRECTO / INCORRECTO)
+========================= */
+.result-page h1 {
+  background-color: gold;
+  font-size: 46px;
+  padding: 14px;
+}
+
+.result-page h2 {
+  margin: 20px 0;
+}
+
+.result-page .btn {
+  background-color: gold;
+  width: 300px;
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 50px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.result-page .btn:hover {
+  background-color: orange;
+}
+
+.result-page .volver img {
+  width: 60px;
+}

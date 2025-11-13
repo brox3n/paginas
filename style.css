@@ -1,0 +1,98 @@
+/* Fondo general */
+body {
+    background: linear-gradient(180deg, #000000 0%, #1a1a1a 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f5d742; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.contenido {
+    width: 70%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid #f5d742;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 25px rgba(245, 215, 66, 0.7);
+    text-decoration: none;
+}
+
+/* Título */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px #f5d742;
+}
+
+/* Subtítulo */
+h2 {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: #f0e68c;
+}
+
+/* Foto de perfil */
+.perfil {
+    border-radius: 50%;
+    width: 120px;
+    border: 3px solid #f5d742;
+    margin: 15px 0;
+}
+
+/* Redes sociales */
+.redes img {
+    width: 40px;
+    margin: 10px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.redes img:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 10px #f5d742);
+}
+
+/* Lista de links */
+.links {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+/* Botones estilo dorado */
+.boton {
+    margin: 15px auto;
+    padding: 15px;
+    width: 70%;
+    background: #000;
+    border: 2px solid #f5d742;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.boton p {
+    color: #f5d742;
+    font-size: 1.2rem;
+    margin: 0;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background: #f5d742;
+    border-color: #fff;
+    cursor: pointer;
+}
+
+.boton:hover p {
+    color: #000;
+}
+
+.a {
+    text-decoration: none;
+
+}

@@ -1,0 +1,171 @@
+/* ======== ESTILOS BASE ======== */
+body {
+  background-image: url(fondo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0 25px;
+  color: white;
+}
+
+/* ======== HEADER ======== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0,0,0,0.85);
+  padding: 15px 30px;
+  box-shadow: 0 0 10px gold;
+  border-radius: 0 0 12px 12px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: gold;
+}
+
+.logo-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid gold;
+  object-fit: cover;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: gold;
+}
+
+/* ======== HERO ======== */
+.hero {
+  text-align: center;
+  background-color: rgba(245, 215, 66, 0.75);
+  color: black;
+  border-radius: 10px;
+  padding: 60px 20px;
+  margin: 40px auto;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+  max-width: 900px;
+}
+
+/* ======== FORMULARIO ======== */
+.contacto-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.contacto-card {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px gold;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.form-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-contacto label {
+  color: gold;
+  font-weight: 600;
+}
+
+.form-contacto input,
+.form-contacto textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.3);
+  background-color: rgba(255,255,255,0.08);
+  color: white;
+  outline: none;
+}
+
+.form-contacto input:focus,
+.form-contacto textarea:focus {
+  border-color: gold;
+  box-shadow: 0 0 8px gold;
+}
+
+/* ======== BOTONES ======== */
+.boton {
+  background-color: gold;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.boton:hover {
+  background-color: black;
+  color: gold;
+  border: 1px solid gold;
+}
+
+/* ======== FOOTER ======== */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.85);
+  margin-top: 40px;
+  box-shadow: 0 0 10px gold;
+  border-radius: 12px 12px 0 0;
+}
+
+.redes-footer a {
+  color: gold;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 5px;
+}
+
+.redes-footer a:hover {
+  color: white;
+}
+
+/* ======== RESPONSIVE ======== */
+@media (max-width: 768px) {
+  .contacto-card {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .hero {
+    margin: 20px 10px;
+    padding: 40px 15px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+}
